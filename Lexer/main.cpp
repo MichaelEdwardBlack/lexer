@@ -6,14 +6,14 @@
 using namespace std;
 
 int main(int argc, char* argv[]) {
-	//OPEN FILE/CHECK ERRORS
+	//OPEN FILES
 	ifstream in(argv[1]);
 	ofstream out(argv[2]);
 
 	Lexer lex;
 	lex.scan(in);
 
-	out << lex.printTokens();
+	out << lex.printTokens() << "Total Tokens: " << lex.getNumTokens();
 
 	in.close();
 	out.close();

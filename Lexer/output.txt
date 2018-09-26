@@ -12,7 +12,7 @@
 (COMMA,",",3)
 (ID,"D",3)
 (RIGHT_PAREN,")",3)
-(ID,"r",4)
+(ID,"roc",4)
 (LEFT_PAREN,"(",4)
 (ID,"E",4)
 (COMMA,",",4)
@@ -151,3 +151,4 @@
 (RIGHT_PAREN,")",23)
 (Q_MARK,"?",23)
 (EOF,"EOF",25)
+Total Tokens: 153
