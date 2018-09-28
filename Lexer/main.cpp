@@ -13,7 +13,7 @@ int main(int argc, char* argv[]) {
 	Lexer lex;
 	lex.scan(in);
 
-	out << lex.printTokens() << "Total Tokens: " << lex.getNumTokens();
+	out << lex.printTokens() << "Total Tokens = " << lex.getNumTokens() << endl;
 
 	in.close();
 	out.close();

@@ -62,6 +62,7 @@ void Lexer::commentCase(ifstream& inputFile) {
 void Lexer::multiCommentCase(ifstream& inputFile) {
 	int startLine = numLine; // in case this is a multi-line comment we only want the line number where the comment starts
 	stringstream comment;
+	comment << input;
 	while (inputFile.peek() != EOF) {
 		input = inputFile.get();
 		if (input == '|' && inputFile.peek() == '#') {

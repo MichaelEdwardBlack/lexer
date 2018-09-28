@@ -4,7 +4,7 @@ const string Token::TOKEN_TYPE[18] = { "COMMA", "PERIOD", "Q_MARK", "LEFT_PAREN"
 "MULTIPLY","ADD", "SCHEMES", "FACTS", "RULES", "QUERIES", "ID", "STRING", "COMMENT", "UNDEFINED", "EOF" };
 
 const string Token::TOKEN_NAME[18] = { ",", ".", "?", "(", ")", ":", ":-", "*", "+", "Schemes", "Facts", "Rules", 
-"Queries", "ID", "STRING", "COMMENT", "UNDEFINED", "EOF" };
+"Queries", "ID", "STRING", "COMMENT", "UNDEFINED", "" };
 
 Token::Token() {
 	this->line = 1;

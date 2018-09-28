@@ -1,7 +1,7 @@
 #include <fstream>
 #include <sstream>
 #include <vector>
-#include "Token.h"
+#include "token.h"
 
 class Lexer {
 public:
